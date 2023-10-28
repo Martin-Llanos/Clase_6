@@ -21,7 +21,7 @@ function calcularSalarioMensual(salarioAnual) {
 const $botonCantidadIntegrantes = document.querySelector(
     "#boton-cantidad-integrantes"
 );
-$botonCantidadIntegrantes.onclick = function () {
+$botonCantidadIntegrantes.onclick = function (Integrantes) {
     const $cantidadIntegrantesFamilia = document.querySelector(
         "#cantidad-integrantes-familia"
     ).value;
