@@ -8,13 +8,13 @@ document.querySelector("#siguiente").onclick = function (e) {
     mostrarBotonCalcular();
 };
 
-document.querySelector("#calcular").onclick = function () {
+document.querySelector("#calcular").onclick = function (Edades) {
     const numeros = obtenerEdades();
     mostrar();
     mostrarResultados(numeros);
 };
 
-document.querySelector("#reset").onclick = function () {
+document.querySelector("#reset").onclick = function (Integrantes) {
     ocultarIntegrantes();
     ocultarResultados();
     ocultarBotonCalcular();
